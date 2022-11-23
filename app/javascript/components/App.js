@@ -1,20 +1,12 @@
-// import React from "react"
-// import PropTypes from "prop-types"
-// class App extends React.Component {
-//   render () {
-//     return (
-//       <React.Fragment>
-//       </React.Fragment>
-//     );
-//   }
-// }
-
-// export default App
-
 import React from "react";
+import Header from "./components/Header";
 
-function App() {
-	return <h1>App</h1>;
-}
+const App = (props) => {
+	return (
+		<>
+			<Header {...props} />
+		</>
+	);
+};
 
 export default App;
